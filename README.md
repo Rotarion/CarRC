@@ -3,8 +3,11 @@
 Objectives:
 
 1 Raspbian and config done on Raspberry pi 3
+
 2 Range script for ultrasonic sonic sensor
+
 3 Scrip for rotors control
+
 4 Use of android controller:
 
   https://circuitdigest.com/microcontroller-projects/raspberry-pi-remote-controlled-car
