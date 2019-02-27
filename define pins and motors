@@ -1,0 +1,18 @@
+import bluetooth
+import time
+import RPi.GPIO as GPIO
+
+m11=18
+m12=23
+m21=24
+m22=25
+GPIO.setwarnings(False)
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(m11, GPIO.OUT)
+GPIO.setup(m12, GPIO.OUT)
+GPIO.setup(m21, GPIO.OUT)
+GPIO.setup(m22, GPIO.OUT)
+GPIO.output(m11 , 0)
+GPIO.output(m12 , 0)
+GPIO.output(m21, 0)
+GPIO.output(m22, 0)
