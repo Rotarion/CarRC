@@ -22,3 +22,5 @@ Objectives:
 7 Create the diagram of the final project.
 
 8 Start building it.
+
+??? New ideas, possible errors, optimitation, etc.
