@@ -1,0 +1,23 @@
+data=""
+while 1:
+         data= client_socket.recv(1024)
+         print "Received: %s" % data
+         if (data == "F"):    
+            forward()
+         elif (data == "L"):    
+            left_side_forward()
+         elif (data == "R"):    
+            right_side_forward()
+         elif (data == "B"):    
+            reverse()
+         elif (data == "A"):    
+            left_side_reverse()
+         elif (data == "P"):    
+            right_side_reverse()
+         elif data == "S":
+            stop()
+         elif (data == "Q"):
+            print ("Quit")
+            break
+client_socket.close()
+server_socket.close()
